@@ -39,6 +39,7 @@ get_header(); ?>
       <?php } elseif ( !comments_open() && !pings_open() ) {
         // Neither Comments, nor Pings are open ?>
         Both comments and pings are currently closed.
+      <?php } ?>
 
       </p>
     </footer>
